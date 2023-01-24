@@ -1,0 +1,696 @@
+@media only screen and (min-width:640px) {
+
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:0;
+    margin: 0 auto;
+    background-color: bisque;
+    
+}
+
+h1 {
+    margin: auto;
+    margin-top:15px;
+    font-size:40px;
+    letter-spacing: 3px;
+    background-color: maroon;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+}
+
+p.text {
+    margin: auto;
+    margin-top:20px;
+    width: 80%;
+}
+
+#table {
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container {
+    margin: auto;
+    margin-top: 20px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding:20px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: green;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgb(4, 68, 4);
+    transition: 200ms;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+td {
+    padding: 15px;
+  
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+    background-color: maroon;
+    height: fit-content;
+    width: fit-content;
+    padding: 15px;
+    color: white;
+}
+
+select {
+    padding: 5px;
+    cursor: pointer;
+}
+
+option {
+    cursor: pointer !important;
+}
+
+a.alink {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    background-color: maroon;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    border-radius: 3px;
+
+
+}
+
+a.alink:hover {
+    background-color: coral;
+}
+
+a:active {
+    transform: scale(0.9);
+}
+
+
+#kategori {
+
+    margin: auto;
+    position: absolute;
+    top: 50;
+    left:50%;
+    transform:translate(-50%);
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    display: none;
+
+
+}
+
+#kategori > table {
+    margin: auto;
+    width: fit-content;
+
+}
+
+#kategori > table > tr {
+    width: fit-content;
+}
+
+
+#kategori > table > tr > td {
+
+    padding: 5px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+}
+
+td.kirmizi {
+    background-color: red;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+
+}
+
+td#kirmizisonuc {
+    background-color: red;
+    width: 400px;
+    font-size:30px;
+    letter-spacing: 3px;
+    color: white !important;
+
+}
+
+td.sari {
+    background-color: gold;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+
+}
+
+td#sarisonuc {
+    background-color: gold;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+
+}
+
+td.yesil {
+    background-color: green;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+}
+
+td#yesilsonuc {
+    background-color: green;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+
+}
+
+td.mavi {
+    background-color: blue;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+
+}
+
+td#mavisonuc {
+    background-color: blue;
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white !important;
+
+}
+
+button#giriskenlik {
+    background-color: red;
+    color: white;
+}
+
+button#ceviklik {
+    background-color: gold;
+    color: white;
+}
+
+button#analitik {
+    background-color: green;
+    color: white;
+}
+
+button#soruncozme {
+    background-color: blue;
+    color: white;
+}
+
+button.kat:hover {
+    transform: scale(1.1);
+}
+
+input {
+    height: 40px;
+    width:400px;
+    padding: 5px;
+    text-align: center;
+    font-size:18px;
+    letter-spacing: 3px;
+    outline: none;
+    border: none;
+    
+   
+}
+
+h1#h1result {
+    display: none;
+    font-size:30px;
+    letter-spacing: 3px;
+    color: white;
+    margin-top:10px;
+    height:fit-content;
+    width:80%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    display: none;
+}
+
+#username {
+    display: none;
+    height: 50px;
+    width:fit-content;
+    padding: 5px;
+    background-color: none;
+    color: darkred;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border: none;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+button#yenile {
+    position: fixed;
+    top:15px;
+    right: 5px;
+    background-color: darkred;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 3px;
+    font-weight: lighter;
+    padding: 5px;
+
+}
+
+button#yenile:hover {
+
+    background-color: coral;
+}
+
+button#yenile:active {
+
+    transform: scale(0.8);
+}
+
+button.anket {
+    background-color:greenyellow;
+    color: green;
+}
+
+button.anket:hover {
+    background-color: green;
+    color: greenyellow;
+    transition: 300ms;
+}
+
+}
+
+
+
+@media only screen and (max-width:640px) {
+
+    body {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding:10;
+        margin: 0 auto;
+        background-color: bisque;
+        
+    }
+    
+    #main {
+        margin: auto;
+        width: 100%;
+    }
+
+    h1 {
+        margin: auto;
+        margin-top:15px;
+        font-size:30px;
+        letter-spacing: 3px;
+        background-color: maroon;
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        color: white;
+    }
+    
+    p.text {
+        margin: auto;
+        margin-top:20px;
+        width: 80%;
+    }
+    
+    #table {
+        margin: auto;
+    }
+    
+    form {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+    }
+
+    input {
+        margin: auto;
+        margin-top: 10px;
+        height: 30px;
+        width: 80% !important;
+    }
+    
+    #container {
+        margin: auto;
+        margin-top: 20px;
+        height: fit-content;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding:20px;
+        text-align: center;
+    }
+    
+    button {
+        cursor: pointer;
+        margin-top: 20px;
+        padding: 10px;
+        height: 50px;
+        width: 200px;
+        background-color: black;
+        color: green;
+        font-weight: bold;
+        letter-spacing: 3px;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    button:hover {
+        background-color: rgb(4, 68, 4);
+        transition: 200ms;
+        color: white;
+    }
+    
+    button:active {
+        transform: scale(0.9);
+    }
+    
+    td {
+        padding: 15px;
+      
+    }
+    
+    h3 {
+        margin: auto;
+        text-align: center;
+        background-color: maroon;
+        height: fit-content;
+        width: fit-content;
+        padding: 15px;
+        color: white;
+    }
+    
+    select {
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    option {
+        cursor: pointer !important;
+    }
+    
+    a.alink {
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        background-color: maroon;
+        color: white;
+        text-decoration: none;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        border-radius: 3px;
+    
+    
+    }
+    
+    a.alink:hover {
+        background-color: coral;
+    }
+    
+    a:active {
+        transform: scale(0.9);
+    }
+    
+    
+    #kategori {
+    
+        margin: auto;
+        position: absolute;
+        top: 50;
+        left:50%;
+        transform:translate(-50%);
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        display: none;
+    
+    
+    }
+    
+    #kategori > table {
+        margin: auto;
+        width: fit-content;
+    
+    }
+    
+    #kategori > table > tr {
+        width: fit-content;
+    }
+    
+    
+    #kategori > table > tr > td {
+    
+        padding: 5px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    }
+    
+    td.kirmizi {
+        background-color: red;
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    
+    }
+    
+    td#kirmizisonuc {
+        background-color: red;
+        width: 400px;
+        font-size:30px;
+        letter-spacing: 3px;
+        color: white !important;
+    
+    }
+    
+    td.sari {
+        background-color: gold;
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    
+    }
+    
+    td#sarisonuc {
+        background-color: gold;
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    
+    }
+    
+    td.yesil {
+        background-color: green;
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    }
+    
+    td#yesilsonuc {
+        background-color: green;
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    
+    }
+    
+    td.mavi {
+        background-color: blue;
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    
+    }
+    
+    td#mavisonuc {
+        background-color: blue;
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: white !important;
+    
+    }
+    
+    button#giriskenlik {
+        background-color: red;
+        color: white;
+    }
+    
+    button#ceviklik {
+        background-color: gold;
+        color: white;
+    }
+    
+    button#analitik {
+        background-color: green;
+        color: white;
+    }
+    
+    button#soruncozme {
+        background-color: blue;
+        color: white;
+    }
+    
+    button.kat:hover {
+        transform: scale(1.1);
+    }
+    
+    input {
+        height: 40px;
+        width:400px;
+        padding: 5px;
+        text-align: center;
+        font-size:18px;
+        letter-spacing: 3px;
+        outline: none;
+        border: none;
+        
+       
+    }
+    
+    h1#h1result {
+        display: none;
+        font-size:30px;
+        letter-spacing: 3px;
+        color: white;
+        margin-top:10px;
+        height:fit-content;
+        width:80%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        display: none;
+    }
+    
+    #username {
+        display: none;
+        height: 50px;
+        width:fit-content;
+        padding: 5px;
+        background-color: none;
+        color: darkred;
+        font-size: 18px;
+        letter-spacing: 3px;
+        border: none;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    button#yenile {
+        position: fixed;
+        top:15px;
+        right: 5px;
+        background-color: darkred;
+        color: white;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 3px;
+        font-weight: lighter;
+        padding: 5px;
+    
+    }
+    
+    button#yenile:hover {
+    
+        background-color: coral;
+    }
+    
+    button#yenile:active {
+    
+        transform: scale(0.8);
+    }
+    
+    button.anket {
+        background-color:greenyellow;
+        color: green;
+    }
+    
+    button.anket:hover {
+        background-color: green;
+        color: greenyellow;
+        transition: 300ms;
+    }
+    
+    }
