@@ -7,6 +7,9 @@
     <title>QUIZ</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel=”stylesheet” href=”https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css”>
+    <script src=”https://code.jquery.com/jquery-1.10.2.min.js”></script>
+    <script src=”https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js”></script>
     
 </head>
 
@@ -88,6 +91,8 @@
                     </td>
                     </tr>
 
+                    <tr><td colspan="2"><input onclick="yenile()" type="button" class="btn" id="btn1" value="Cevapları Yenile"></td></tr>
+
                     </table>
                 
                     
@@ -137,6 +142,8 @@
             </td>
             </tr>
 
+            <tr><td colspan="2"><input onclick="yenile2()" type="button" class="btn" id="btn2" value="Cevapları Yenile"></td></tr>
+
             </table>
 
             <hr>
@@ -184,6 +191,8 @@
                 </select>
             </td>
             </tr>
+
+            <tr><td colspan="2"><input onclick="yenile3()" type="button" class="btn" id="btn3" value="Cevapları Yenile"></td></tr>
 
             </table>
 
@@ -233,6 +242,8 @@
             </td>
             </tr>
 
+            <tr><td colspan="2"><input onclick="yenile4()" type="button" class="btn" id="btn4" value="Cevapları Yenile"></td></tr>
+
             </table>
 
             <hr>
@@ -280,6 +291,8 @@
                 </select>
             </td>
             </tr>
+
+            <tr><td colspan="2"><input onclick="yenile5()" type="button" class="btn" id="btn5" value="Cevapları Yenile"></td></tr>
 
             </table>
 
@@ -329,6 +342,8 @@
             </td>
             </tr>
 
+            <tr><td colspan="2"><input onclick="yenile6()" type="button" class="btn" id="btn6" value="Cevapları Yenile"></td></tr>
+
             </table>
 
             <hr>
@@ -376,6 +391,8 @@
                 </select>
             </td>
             </tr>
+
+            <tr><td colspan="2"><input onclick="yenile7()" type="button" class="btn" id="btn7" value="Cevapları Yenile"></td></tr>
 
             </table>
 
@@ -425,6 +442,8 @@
             </td>
             </tr>
 
+            <tr><td colspan="2"><input onclick="yenile8()" type="button" class="btn" id="btn8" value="Cevapları Yenile"></td></tr>
+
             </table>
 
             <hr>
@@ -472,6 +491,8 @@
                 </select>
             </td>
             </tr>
+
+            <tr><td colspan="2"><input onclick="yenile9()" type="button" class="btn" id="btn9" value="Cevapları Yenile"></td></tr>
 
             </table>
 
@@ -521,6 +542,8 @@
             </td>
             </tr>
 
+            <tr><td colspan="2"><input onclick="yenile10()" type="button" class="btn" id="btn10" value="Cevapları Yenile"></td></tr>
+
             </table>
 
             <hr>
@@ -569,6 +592,8 @@
             </td>
             </tr>
 
+            <tr><td colspan="2"><input onclick="yenile11()" type="button" class="btn" id="btn11" value="Cevapları Yenile"></td></tr>
+
             </table>
 
             <hr>
@@ -616,6 +641,8 @@
                 </select>
             </td>
             </tr>
+
+            <tr><td colspan="2"><input onclick="yenile12()" type="button" class="btn" id="btn12" value="Cevapları Yenile"></td></tr>
 
             </table>
 
@@ -1047,6 +1074,858 @@ $('.class12').on('change', function() {
         }).prop('disabled', true);
     });
 }).change();
+
+function yenile() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select1 = document.getElementById("s1"); 
+var select2 = document.getElementById("s2"); 
+var select3 = document.getElementById("s3"); 
+var select4 = document.getElementById("s4"); 
+
+ 
+// Remove all options 
+while (select1.options.length > 0) { 
+    select1.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select1.appendChild(el); 
+} 
+
+// Remove all options 
+while (select2.options.length > 0) { 
+    select2.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select2.appendChild(el); 
+} 
+
+while (select3.options.length > 0) { 
+    select3.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select3.appendChild(el); 
+} 
+
+
+while (select4.options.length > 0) { 
+    select4.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select4.appendChild(el); 
+} 
+
+
+}
+
+function yenile2() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select21 = document.getElementById("s21"); 
+var select22 = document.getElementById("s22"); 
+var select23 = document.getElementById("s23"); 
+var select24 = document.getElementById("s24"); 
+
+ 
+// Remove all options 
+while (select21.options.length > 0) { 
+    select21.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select21.appendChild(el); 
+} 
+
+// Remove all options 
+while (select22.options.length > 0) { 
+    select22.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select22.appendChild(el); 
+} 
+
+while (select23.options.length > 0) { 
+    select23.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select23.appendChild(el); 
+} 
+
+
+while (select24.options.length > 0) { 
+    select24.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select24.appendChild(el); 
+} 
+
+
+}
+
+function yenile3() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select31 = document.getElementById("s31"); 
+var select32 = document.getElementById("s32"); 
+var select33 = document.getElementById("s33"); 
+var select34 = document.getElementById("s34"); 
+
+ 
+// Remove all options 
+while (select31.options.length > 0) { 
+    select31.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select31.appendChild(el); 
+} 
+
+// Remove all options 
+while (select32.options.length > 0) { 
+    select32.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select32.appendChild(el); 
+} 
+
+while (select33.options.length > 0) { 
+    select33.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select33.appendChild(el); 
+} 
+
+
+while (select34.options.length > 0) { 
+    select34.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select34.appendChild(el); 
+} 
+
+
+}
+
+function yenile4() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select41 = document.getElementById("s41"); 
+var select42 = document.getElementById("s42"); 
+var select43 = document.getElementById("s43"); 
+var select44 = document.getElementById("s44"); 
+
+ 
+// Remove all options 
+while (select41.options.length > 0) { 
+    select41.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select41.appendChild(el); 
+} 
+
+// Remove all options 
+while (select42.options.length > 0) { 
+    select42.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select42.appendChild(el); 
+} 
+
+while (select43.options.length > 0) { 
+    select43.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select43.appendChild(el); 
+} 
+
+
+while (select44.options.length > 0) { 
+    select44.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select44.appendChild(el); 
+} 
+
+
+}
+
+function yenile5() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select51 = document.getElementById("s51"); 
+var select52 = document.getElementById("s52"); 
+var select53 = document.getElementById("s53"); 
+var select54 = document.getElementById("s54"); 
+
+ 
+// Remove all options 
+while (select51.options.length > 0) { 
+    select51.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select51.appendChild(el); 
+} 
+
+// Remove all options 
+while (select52.options.length > 0) { 
+    select52.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select52.appendChild(el); 
+} 
+
+while (select53.options.length > 0) { 
+    select53.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select53.appendChild(el); 
+} 
+
+
+while (select54.options.length > 0) { 
+    select54.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select54.appendChild(el); 
+} 
+
+
+}
+
+function yenile6() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select61 = document.getElementById("s31"); 
+var select62 = document.getElementById("s32"); 
+var select63 = document.getElementById("s33"); 
+var select64 = document.getElementById("s34"); 
+
+ 
+// Remove all options 
+while (select61.options.length > 0) { 
+    select61.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select61.appendChild(el); 
+} 
+
+// Remove all options 
+while (select62.options.length > 0) { 
+    select62.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select62.appendChild(el); 
+} 
+
+while (select63.options.length > 0) { 
+    select63.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select63.appendChild(el); 
+} 
+
+
+while (select64.options.length > 0) { 
+    select64.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select64.appendChild(el); 
+} 
+
+
+}
+
+function yenile7() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select71 = document.getElementById("s71"); 
+var select72 = document.getElementById("s72"); 
+var select73 = document.getElementById("s73"); 
+var select74 = document.getElementById("s74"); 
+
+ 
+// Remove all options 
+while (select71.options.length > 0) { 
+    select71.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select71.appendChild(el); 
+} 
+
+// Remove all options 
+while (select72.options.length > 0) { 
+    select72.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select72.appendChild(el); 
+} 
+
+while (select73.options.length > 0) { 
+    select73.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select73.appendChild(el); 
+} 
+
+
+while (select74.options.length > 0) { 
+    select74.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select74.appendChild(el); 
+} 
+
+
+}
+
+function yenile8() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select81 = document.getElementById("s81"); 
+var select82 = document.getElementById("s82"); 
+var select83 = document.getElementById("s83"); 
+var select84 = document.getElementById("s84"); 
+
+ 
+// Remove all options 
+while (select81.options.length > 0) { 
+    select81.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select81.appendChild(el); 
+} 
+
+// Remove all options 
+while (select82.options.length > 0) { 
+    select82.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select82.appendChild(el); 
+} 
+
+while (select83.options.length > 0) { 
+    select83.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select83.appendChild(el); 
+} 
+
+
+while (select84.options.length > 0) { 
+    select84.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select84.appendChild(el); 
+} 
+
+
+}
+
+function yenile9() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select91 = document.getElementById("s91"); 
+var select92 = document.getElementById("s92"); 
+var select93 = document.getElementById("s93"); 
+var select94 = document.getElementById("s94"); 
+
+ 
+// Remove all options 
+while (select91.options.length > 0) { 
+    select91.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select91.appendChild(el); 
+} 
+
+// Remove all options 
+while (select92.options.length > 0) { 
+    select92.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select92.appendChild(el); 
+} 
+
+while (select93.options.length > 0) { 
+    select93.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select93.appendChild(el); 
+} 
+
+
+while (select94.options.length > 0) { 
+    select94.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select94.appendChild(el); 
+} 
+
+
+}
+
+function yenile10() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select101 = document.getElementById("s101"); 
+var select102 = document.getElementById("s102"); 
+var select103 = document.getElementById("s103"); 
+var select104 = document.getElementById("s104"); 
+
+ 
+// Remove all options 
+while (select101.options.length > 0) { 
+    select101.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select101.appendChild(el); 
+} 
+
+// Remove all options 
+while (select102.options.length > 0) { 
+    select102.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select102.appendChild(el); 
+} 
+
+while (select103.options.length > 0) { 
+    select103.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select103.appendChild(el); 
+} 
+
+
+while (select104.options.length > 0) { 
+    select104.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select104.appendChild(el); 
+} 
+
+
+}
+
+function yenile11() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select111 = document.getElementById("s111"); 
+var select112 = document.getElementById("s112"); 
+var select113 = document.getElementById("s113"); 
+var select114 = document.getElementById("s114"); 
+
+ 
+// Remove all options 
+while (select111.options.length > 0) { 
+    select111.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select111.appendChild(el); 
+} 
+
+// Remove all options 
+while (select112.options.length > 0) { 
+    select112.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select112.appendChild(el); 
+} 
+
+while (select113.options.length > 0) { 
+    select113.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select113.appendChild(el); 
+} 
+
+
+while (select114.options.length > 0) { 
+    select114.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select114.appendChild(el); 
+} 
+
+
+}
+
+function yenile12() {
+
+// Example data 
+// Example data 
+var options = ['1', '2', '3', '5']; 
+ 
+// Get the select element 
+var select121 = document.getElementById("s121"); 
+var select122 = document.getElementById("s122"); 
+var select123 = document.getElementById("s123"); 
+var select124 = document.getElementById("s124"); 
+
+ 
+// Remove all options 
+while (select121.options.length > 0) { 
+    select121.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select121.appendChild(el); 
+} 
+
+// Remove all options 
+while (select122.options.length > 0) { 
+    select122.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select122.appendChild(el); 
+} 
+
+while (select123.options.length > 0) { 
+    select123.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select123.appendChild(el); 
+} 
+
+
+while (select124.options.length > 0) { 
+    select124.remove(0); 
+} 
+ 
+// Append new options 
+for (var i = 0; i < options.length; i++) { 
+    var opt = options[i]; 
+    var el = document.createElement("option"); 
+    el.textContent = opt; 
+    el.value = opt; 
+    select124.appendChild(el); 
+} 
+
+
+}
 
 </script>
 
