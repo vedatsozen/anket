@@ -337,6 +337,26 @@ button.anket:hover {
     transition: 300ms;
 }
 
+input.btn {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    background-color: darkred;
+    color: white;
+    font-size: 15px;
+
+}
+
+input.btn:hover {
+    background-color: coral;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+input.btn:active {
+    transform: scale(0.9);
+}
+
 }
 
 
@@ -693,4 +713,24 @@ button.anket:hover {
         transition: 300ms;
     }
     
+    }
+
+    input.btn {
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        background-color: darkred;
+        color: white;
+        font-size: 15px;
+
+    }
+
+    input.btn:hover {
+        background-color: coral;
+        cursor: pointer;
+        transition: 300ms;
+    }
+
+    input.btn:active {
+        transform: scale(0.9);
     }
