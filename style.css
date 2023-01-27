@@ -82,15 +82,16 @@ td {
   
 }
 
-h3 {
-    margin: auto;
-    text-align: center;
-    background-color: maroon;
-    height: fit-content;
-    width: fit-content;
-    padding: 15px;
-    color: white;
+td.question {
+    width: 500px;
 }
+
+h3 {
+    color: maroon;
+    font-size:20px;
+    font-weight: bold;
+}
+
 
 select {
     padding: 5px;
@@ -150,9 +151,7 @@ a:active {
 
 }
 
-#kategori > table > tr {
-    width: fit-content;
-}
+
 
 
 #kategori > table > tr > td {
@@ -161,6 +160,21 @@ a:active {
     font-size: 30px;
     letter-spacing: 3px;
     color: white !important;
+    
+}
+
+td {
+    width: 350px;
+}
+
+
+
+td {
+    text-align: left;
+}
+
+td:nth-child(2) {
+    text-align: right;
 }
 
 td.kirmizi {
@@ -357,6 +371,8 @@ input.btn:active {
     transform: scale(0.9);
 }
 
+
+
 }
 
 
@@ -457,15 +473,16 @@ input.btn:active {
         padding: 15px;
       
     }
+
+
+    td.question {
+        width: 500px;
+    }
     
     h3 {
-        margin: auto;
-        text-align: center;
-        background-color: maroon;
-        height: fit-content;
-        width: fit-content;
-        padding: 15px;
-        color: white;
+        color: maroon;
+        font-size:20px;
+        font-weight: bold;
     }
     
     select {
@@ -537,6 +554,17 @@ input.btn:active {
         font-size: 30px;
         letter-spacing: 3px;
         color: white !important;
+    }
+
+    td {
+        width:70%;
+        text-align: left;
+    }
+    
+    
+    td:nth-child(2) {
+        width:30%;
+        text-align: right;
     }
     
     td.kirmizi {
